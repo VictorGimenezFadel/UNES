@@ -1,0 +1,33 @@
+/***********************************************CLASS***********************************************/
+.corpo_do_site{
+    text-align: center;
+}
+.icones{
+    width: 100px;
+    margin-top: 20px;
+    text-align: center;
+    
+}
+.linha_superior{
+    background-attachment: fixed;
+}
+.links_da_página{
+    text-align: right;
+    padding: px;
+    background-color: ;
+}
+/************************************************ID'S************************************************/
+#login_e_cadastro{
+    text-align: center;
+}
+#corpo_contato{
+    margin-top: 35px;
+    text-align: center;
+}
+#corpo_quem_somos{
+    text-align: center;
+}
+#direitos{
+    text-align: center;
+    font-style: italic;
+}
