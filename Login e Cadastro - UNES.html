@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logar ou cadastrar-se</title>
+
+    <link rel="stylesheet" type="text/css" href="Estilo da página.css">
+
+    <link rel="icon" type="image/png" href="Arquivos necessários - UNES/logo da guia.png">
+
+    <style>
+
+        a:link{
+            color: black;
+        }
+        a:visited{
+            color: gray;
+        }
+        a:active{
+            color: red;
+        }
+
+    </style>
+
+</head>
+
+<body background="Arquivos necessários - UNES/fundo2.png" class="linha_superior">
+
+<!---------------------------------------------------Usando tabela para fazer a interface------------------------------------------------------------->
+
+
+<table border="0" width="900" align="center">
+    <tr>
+        <td colspan="2">
+            <a href="Página inicial - UNES.html"> 
+                <img src="Arquivos necessários - UNES/logo.png"><!--Logo-->
+            </a>
+        </td>
+        <td colspan="2">
+<div class="links_da_página">
+            <a href="Página inicial - UNES.html">Home</a> |
+            <a href="Login e Cadastro - UNES.html">Logar ou cadastrar-se</a> |<!--Links do site-->
+            <a href="Contato - UNES.html">Contato</a> |
+             <a href="Quem somos - UNES.html">Quem somos</a>
+</div>
+        </td>
+    </tr>
+</table>
+
+<!---------------------------------------------------------------------------------------------------------------->
+
+<div class="corpo_do_site"><!--Serve para centralizar todo conteúdo que fica dentro da TAG-->
+
+        <h1>Login</h1>
+<!--<form action="">Na tag FORM irá ter o atributo ACTION serve para enviar todos os INPUTS para um banco de dados e/ou verificar se o usuário está ou não autenticado-->
+
+            Email ou Nome de usuário<br><!--TYPE TEXT para gerar uma caixa de texto que pode ser visualizada o que está sendo digitado-->
+            <input type="text" name="Email ou Nome de usuário" size="30"><br>
+
+            Senha<br><!--TYPE PASSWORD para gerar uma caixa de texto com caracteres coringas, que não podem ser visualizado ao digitar-->
+            <input type="password" name="Senha" size="30"><br>
+
+            <input type="button" value="Logar"><!--TYPE BUTTON serve para gera um botão que ao ser clicado, pode enviar os dados de um formulário por exemplo, e VALUE é o que fica escrito dentro desse botão-->
+        <!--Também é usado o TYPE SUBMIT, que gera um botão que eniva os dados(mas aparece na barra de pesquisa e não é seguro), e VALUE é o que fica escrito dentro desse botão--><br>
+
+        <h2>Cadastre-se</h2>
+
+            Nome completo<br>
+            <input type="text" name="Nome completo" size="30"><br>
+
+            Email<br>
+            <input type="text" name="email de cadastro" size="30"><br>
+
+            CPF<br>
+            <input type='text' size='30' name='CPF'><br>
+
+            Nome de usuário<br>
+            <input type="text" name="Nome de usuário" size="30"><br>
+
+            Senha<br>
+            <input type="password" name="Senha de cadastro" size="30"><br>
+            Confirme a Senha<br>
+            <input type="password" name="Confirmação de senha de cadastro" size="30"><br>
+
+            Sexo:&nbsp;&nbsp;
+            <input type="radio" name="Sexo" value="Masculino">Masculino&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="Sexo" value="Feminino">Feminino<br>
+        <!--Para que não seja possivel que os dois INPUTS RADIO fiquem ambos marcados, deve-se definir o NAME igual para os dois-->
+        <!--O VALUE serve para identificar qual opção foi selecionada já que o NAME são ambos iguais-->
+<br>
+                <select name="Seleção de estado">
+                    <option>Selecione seu Estado</option>
+                    <option>Acre</option>
+                    <option>Alagoas</option>                
+                    <option>Amapá</option>                
+                    <option>Amazonas</option>                
+                    <option>Bahia</option>
+                    <option>Ceará</option>
+                    <option>Distrito Federal</option>
+                    <option>Espírito Santo</option>
+                    <option>Goiás</option>
+                    <option>Maranhão</option>
+                    <option>Mato Grosso</option>
+                    <option>Mato Grosso do Sul</option><!--Dentro de SELECT vai a TAG OPTION que serve para adicionar uma lista de opções-->
+                    <option>Minas Gerais</option>
+                    <option>Pará</option>
+                    <option>Paraíba</option>
+                    <option>Paraná</option>
+                    <option>Pernambuco</option>
+                    <option>Piauí</option>
+                    <option>Rio de Janeiro</option>
+                    <option>Rio grande do Norte</option>
+                    <option>Rio grande do Sul</option>
+                    <option>Rondônia</option>
+                    <option>Roraima</option>
+                    <option>Santa Catarina</option>
+                    <option>São Paulo</option>
+                    <option>Sergipe</option>
+                    <option>Tocantins</option>
+                </select>&nbsp;&nbsp;
+            <br>
+            <br>
+            Interesses<br>
+            <input type="checkbox" name="Interesses">Tecnologia
+            <input type="checkbox" name="Interesses">Humanas
+            <input type="checkbox" name="Interesses">Exatas
+            <input type="checkbox" name="Interesses">Letras<br><!--CHECKBOX serve para criar caixas que podem selecionar mais de uma opção-->
+            <input type="checkbox" name="Interesses">Esportes
+            <input type="checkbox" name="Interesses">Saúde
+            <input type="checkbox" name="Interesses">Arquitetura e Urbanismo
+            <input type="checkbox" name="Interesses">Engenharia<br>
+        <br>
+</div>  
+
+<hr>
+
+        <strong>Termo e condições</strong>
+<br>
+<br>
+        <output>
+    
+        <em>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        De onde isso vem? Ao contrário da crença popular, Lorem Ipsum não é simplesmente um texto aleatório. 
+        Tem raízes em uma peça da literatura clássica latina de 45 aC, com mais de 2.000 anos. Richard McClintock, um professor 
+        de latim no Hampden-Sydney College, na Virgínia, procurou uma das palavras latinas mais obscuras, consectetur, de uma passagem 
+        de Lorem Ipsum e, examinando as citações da palavra na literatura clássica, descobriu a fonte indubitável. Lorem Ipsum vem 
+        das seções 1.10.32 e 1.10.33 de "de Finibus Bonorum et Malorum" (Os Extremos do Bem e do Mal) de Cícero, escrito em 45 aC. Este livro 
+        é um tratado sobre a teoria da ética, muito popular durante o Renascimento.
+    </em>
+    </output>
+    <br>
+    <br>
+    <input type="radio" name="Confirmação" value="op1">Li e aceito os termos e condiçoes&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="Confirmação" value="op2">Li e não eceito os termos e condições
+
+<hr>
+
+    <br>
+    
+<center>
+        <input type="submit" value="Cadastrar" text-aling="center">
+        <input type="reset" name="apagar" autocomplete="off" ><!--Serve para redefinir a formulários-->
+</center>
+
+</form>
+
+<!--
+    Isso é somente um exemplo de como pode-se adiantar o processo de criação de uma lista de itens
+
+ul>li#item$*5>
+
+    <ul>
+        <li id="item1"></li>
+        <li id="item2"></li>
+        <li id="item3"></li>
+        <li id="item4"></li>
+        <li id="item5"></li>
+    </ul>
+
+-->
+
+</body
+</html
